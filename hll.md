@@ -116,7 +116,7 @@ Persistence
 
   * EASY: An orthogonally persistent object database. Transactional code and schema updates.
     System-wide versioning and easy forking (in a virtualized instance).
-    Code updates are transactional and upgrade stack frames.
+    Code updates are transactional and may upgrade stack frames where necessary.
     No filesystem: search the object graph for structure, get set of access paths.
 
   * MEDIUM: Everything orthogonally persistent at every level by default, depending on user focus.
